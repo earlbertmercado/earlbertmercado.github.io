@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentSectionId = '';
         
         sections.forEach(section => {
-            const sectionTop = section.offsetTop - 100;
+            const sectionTop = section.offsetTop - 500;
             const sectionHeight = section.clientHeight;
         
             if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
