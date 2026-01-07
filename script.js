@@ -45,6 +45,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("year").textContent = new Date().getFullYear();
     const revealElements = document.querySelectorAll('.reveal');
     
     const revealOnScroll = () => {
