@@ -35,7 +35,9 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div id="particles-js"></div>
+
+        <div class="container hero-content">
             <div class="hero-avatar">
                 <img src="images/profile.jpg" alt="Earlbert Mercado profile photo">
             </div>
@@ -46,7 +48,6 @@
             </p>
 
             <div class="contact-info">
-
                 <div class="contact-item">
                     <a href="mailto:earlbertmercado@gmail.com" aria-label="Email">
                         <i class="fas fa-envelope"></i>
@@ -64,13 +65,12 @@
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
-
             </div>
 
+            <a href="resume.pdf" class="view-btn" target="_blank" rel="noopener">
+                <i class="fas fa-up-right-from-square"></i> View Resume
+            </a>
         </div>
-        <a href="resume.pdf" class="view-btn" target="_blank" rel="noopener">
-            <i class="fas fa-up-right-from-square"></i> View Resume
-        </a>
     </section>
 
     <!-- Experience Timeline -->
@@ -243,9 +243,13 @@
     </section>
 
     <footer>
+        <!-- Particles container -->
+        <div id="footer-particles"></div>
+
         &copy;<span id="year"></span> Earlbert Mercado. All rights reserved.
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 
